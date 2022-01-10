@@ -1,7 +1,6 @@
 #include "reverseWord.c"
-using namespace std;
 
-string addNumberToWord(int position, string word){
+char addNumberToWord(int position, char word){
     char new_line[33];
     sprintf(new_line, "%i", position );
     strcat(new_line,  " " );
