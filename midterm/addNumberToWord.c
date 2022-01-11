@@ -9,5 +9,6 @@ char *addNumberToWord(int position, char *word)
     sprintf(new_line, "%i", position);
     strcat(new_line, word);
     strcat(new_line, "\n");
+    printf("hi")
     return new_line;
 }
