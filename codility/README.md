@@ -14,7 +14,7 @@
   - performance: 100%
   - correctness: 100%
   
-# Demo Test
+## Demo Test
 
 [Missing Integer](https://github.com/SebastianArriagada/C-work/blob/main/codility/PermMissingElem.c)
   - performance: 100%
