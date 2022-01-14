@@ -47,6 +47,13 @@ Check whether array A is a permutation.
  - Performance: 100%
  - Total score: 100%
 
- 
+ ## Prefix Sums
+
+[Passing Cars](https://github.com/SebastianArriagada/python-work/blob/main/codility/PassingCars.c)
+
+Count the number of passing cars on the road.
+ - Correctness: 100%
+ - Performance: 100%
+ - Total score: 100%
   
  
