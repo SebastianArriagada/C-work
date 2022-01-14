@@ -40,6 +40,13 @@ Given an array A of N integers, returns the smallest positive integer (greater t
   - Correctness: 100%
   - Total score: 100%
 
+[Permute Check](https://github.com/SebastianArriagada/C-work/blob/main/codility/PermCheck.c)
+
+Check whether array A is a permutation.
+ - Correctness: 100%
+ - Performance: 100%
+ - Total score: 100%
+
  
   
  
