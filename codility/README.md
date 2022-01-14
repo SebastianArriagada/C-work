@@ -32,15 +32,13 @@ Calculate the values of counters after applying all alternating operations: incr
  - Correctness: 100%
  - Performance: 60%
  - Total score: 77%
-  
-## Demo Test
 
 [Missing Integer](https://github.com/SebastianArriagada/C-work/blob/main/codility/PermMissingElem.c)
 
 Given an array A of N integers, returns the smallest positive integer (greater than 0) that does not occur in A.
   - Performance: 100%
-  - Correctness: 80%
-  - Total score: 88%
+  - Correctness: 100%
+  - Total score: 100%
 
  
   

@@ -25,7 +25,7 @@ int solution(int A[], int N)
 
     if (N == 1)
     {
-        return singleNumber(A[N]);
+        return singleNumber(A[N-1]);
     }
 
     qsort(A, N, sizeof(int), cmpfunc);
@@ -71,16 +71,36 @@ int solution(int A[], int N)
     return (A[N - 1] + 1);
 }
 
-// 100% performance
-// 80% correctness
-// 88% Total score
+
 
 /*
-[-1,-1,1]
-[-1,-1,3]
-[-1,-1,0]
-[-1,-1,1,1]
-[-1,-1,1,3]
 
+Performance: 100%
+Correctness: 100%
+Total score: 100%
+
+Detected time complexity:
+O(N) or O(N * log(N))
+
+expand allExample tests
+
+first example test ✔OK
+second example test ✔OK
+third example test ✔OK
+
+expand allCorrectness tests
+
+a single element ✔OK
+simple test ✔OK
+minimal and maximal values ✔OK
+shuffled sequence of 0...100 and then 102...200 ✔OK
+shuffled sequence -100 ... -1 ✔OK
+
+expand allPerformance tests
+
+chaotic sequences length=10005 (with minus) ✔OK
+chaotic + sequence 1, 2, ..., 40000 (without minus) ✔OK
+shuffled sequence 1, 2, ..., 100000 (without minus) ✔OK
+chaotic + many -1, 1, 2, 3 (with minus) ✔OK
 
 */
