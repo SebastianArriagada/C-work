@@ -11,7 +11,7 @@ Count minimal number of jumps from position X to Y.
 
 [Permutation Missing Element](https://github.com/SebastianArriagada/C-work/blob/main/codility/PermMissingElem.c)
 
-Fnd the missing element in a given permutation.
+Find the missing element in a given permutation.
   - Performance: 100%
   - Correctness: 100%
   - Total score: 100% 
@@ -57,3 +57,9 @@ Count the number of passing cars on the road.
  - Total score: 100%
   
  
+[Min Avgerage Two Slice](https://github.com/SebastianArriagada/python-work/blob/main/codility/MinAvgTwoSlice.c)
+
+Count the number of passing cars on the road.
+ - Correctness: 80%
+ - Performance: 0%
+ - Total score: 40%
